@@ -2,6 +2,11 @@
 
 A full-stack MVP that ingests, detects, and visualizes market anomalies in real time.
 
+Built with:
+- FastAPI + PostgreSQL + Docker for the backend
+- SQLAlchemy + Pandas for anomaly detection
+- WebSockets + REST APIs for real-time data
+- Next.js + Tailwind + Recharts for interactive frontend
 ## Features
 - FastAPI backend with Docker and PostgreSQL
 - Z-score anomaly detection (Spike/Drop)
